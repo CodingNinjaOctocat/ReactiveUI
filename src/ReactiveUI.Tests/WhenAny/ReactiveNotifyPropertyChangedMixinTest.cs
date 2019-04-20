@@ -11,9 +11,11 @@ using System.Reactive;
 using System.Reactive.Concurrency;
 using System.Reactive.Linq;
 using System.Threading;
+
+using DynamicData;
+
 using Microsoft.Reactive.Testing;
 
-using ReactiveUI.Legacy;
 using ReactiveUI.Testing;
 
 using Xunit;

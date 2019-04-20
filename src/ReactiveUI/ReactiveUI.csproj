@@ -11,7 +11,7 @@
   <ItemGroup>
     <Compile Remove="Platforms\**\*.cs" />
     <None Include="Platforms\**\*.cs" />
-    <PackageReference Include="System.Reactive" Version="4.2.0-preview.63" />
+    <PackageReference Include="System.Reactive" Version="4.2.0-preview.102" />
     <PackageReference Include="Splat" Version="7.*" />
     <PackageReference Include="DynamicData" Version="6.*" />
   </ItemGroup>
@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup Condition=" $(TargetFramework.StartsWith('net4')) ">
-    <Compile Include="Platforms\net461\**\*.cs" />
+    <Compile Include="Platforms\net4\**\*.cs" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
   </ItemGroup>
 
