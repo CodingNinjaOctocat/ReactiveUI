@@ -181,7 +181,8 @@ namespace ReactiveUI
         {
             if (disposing)
             {
-                _commonSource.Dispose();
+                _commonSource?.Dispose();
+                _elementSelected?.Dispose();
             }
 
             base.Dispose(disposing);
